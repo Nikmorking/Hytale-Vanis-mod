@@ -1,0 +1,10 @@
+-classpath '/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/build/classes/java/main:/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/build/resources/main:/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/install/release/package/game/latest/Server/HytaleServer.jar:/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/run/HYTALEDEVLIB-0.2.0.jar'
+-quiet 
+-d '/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/build/docs/javadoc'
+-windowtitle 'ExamplePlugin 0.0.2 API'
+-doctitle 'ExamplePlugin 0.0.2 API'
+-notimestamp 
+-Xdoclint:-missing '-quiet'
+'/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/src/main/java/org/example/plugin/ExampleCommand.java'
+'/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/src/main/java/org/example/plugin/ExamplePlugin.java'
+'/home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/src/main/java/org/example/plugin/ExampleHood.java'
