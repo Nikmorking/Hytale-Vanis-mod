@@ -1,0 +1,5 @@
+./gradlew build jar
+rm /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/ExamplePlugin-0.0.2.jar
+cp /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/build/libs/ExamplePlugin-0.0.2.jar /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/
+rm -r /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Packs/Terra/Terra/build/libs/
+java -jar  /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/install/release/package/game/latest/Server/HytaleServer.jar --assets /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/install/release/package/game/latest/Assets.zip --mods /home/nikmorking/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/ --accept-early-plugins
